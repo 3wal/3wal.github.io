@@ -308,60 +308,7 @@ footer ul{
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
-  body {
-    background-color: blue;
-  }
-  nav {
-    background-color: red
-  }
-  main {
-    padding-top: 195px;
-  }
-  h1, h2, h3 {
-    background-color: yellow
-  }
-  section {
-    background-color: purple
-  }
-  div {
-    background-color: green
-  }
-  article {
-    background-color: black
-  }
-  ul{
-    color: blue
-  }
-  ul > li {
-    color: black;
-    float: none;
-  }
 }
-
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
-  }
-  nav {
-    background-color: black
-  }
-  h1, h2, h3 {
-    background-color: purple
-  }
-  section {
-    background-color: orange
-  }
-  div {
-    background-color: green
-  }
-  article {
-    background-color: black
-  }
-  ul{
-    color: blue
-  }
-  ul > li {
-    color: black;
-  }
 }

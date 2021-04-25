@@ -10,10 +10,15 @@
   --fw-b: 800;
 
 /*font sizes*/
+/*BIG SCREEN*/
   --fs-s: 1.6rem;
   --fs-m: 2rem;
   --fs-l: 4rem;
 
+/*SMALL SCREEN*/
+  --fs-ss-s: 1.6rem;
+  --fs--ss-m: 2.1rem;
+  --fs-ss-l: 4.2rem;
 /*colors*/
 --clr-a: #0ECF78;
 --clr-b: #0FD945;
@@ -62,7 +67,7 @@
 }
 
 html { font-size: 20px}
-body { margin: 0; background-color: white; color: #2A2423; font-family: 'Lexend', sans-serif;
+body { margin: 0; background-color: #F7FFF2; color: #2A2423; font-family: 'Lexend', sans-serif;
 }
 
 .navigationHeader{
@@ -210,13 +215,13 @@ h2, h3 {
 }
 
 .sectionOne{
-  background-image: var(--gradient-orange);
+  background-color: #F7FFF2;
   color: black;
   font-weight: var(--fw-m);
 }
 
 .sectionOne_image{
-  background-image: url("../images/diet.jpg");
+  background-image: url("../images/diet2.jpg");
   margin-bottom: 30px;
   width: 100%;
   height: 600px;
@@ -422,6 +427,7 @@ footer ul{
 .main_image_text {
 	width: 400px;
 	height: 400px;
+	font-size: var(--fs-ss-s);
 	text-align: left;
 	color: black;
 }
@@ -448,7 +454,7 @@ footer ul{
 	height: 400px;
 	text-align: right;
 	color: black;
-	font-size: var(--fs-s);
+	font-size: var(--fs-ss-s);
 	font-weight: var(--fw-s);
 	float: right;
 	text-align: justify;
